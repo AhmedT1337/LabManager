@@ -20,5 +20,7 @@ class LabManager
     Equipments.clear();
     }
     void returnAnItem(std::string Id);
+    LabManager(const LabManager&) = delete;
+    LabManager& operator=(const LabManager&) = delete;
 };
 
